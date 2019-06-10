@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Weather App",
+  "author": "Shrihari Murali",
+  "version": "1.0.0",
+  "description": "Replace new tab screen with GitHub trending projects.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": "script-src 'self' https://example.com; object-src 'self'",
+  "permissions": [
+    "storage"
+  ]
+}
